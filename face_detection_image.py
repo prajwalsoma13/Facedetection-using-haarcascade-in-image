@@ -15,7 +15,7 @@ def Haarcasfacedetect(faceCascade, frame):
         return detect
 
 
-faceCascade = cv2.CascadeClassifier("models/haarcascade_frontalface_default.xml")
+faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 
 def face_detect(image):
